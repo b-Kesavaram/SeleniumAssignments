@@ -21,7 +21,18 @@ public class PrintDuplicatesInArray {
 					
 			// Out of the inner loop, check and print the first array variable if count is more than 0
 			
-			
+			int arraylength= data.length;
+		System.out.println("The given array lenght is" + " " +arraylength);
+				for (int i=0;i<arraylength;i++)
+		{
+			for (int j=i+1;j<arraylength;j++)
+			{
+				if(data[i]==data[j]) {
+					System.out.println(data[i]);
+				}
+					
+			}
+		}
 		
 	}
 
