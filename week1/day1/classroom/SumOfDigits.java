@@ -40,6 +40,18 @@ public class SumOfDigits {
 			// Print the quotient to confirm
 		
 		// Outside the loop: print the final sum
+		
+		int data = 123;
+		int sum,number = 0;
+		for (int i=sum;i!=0;i++)
+		{
+		    number = data  % 10;
+		    sum = sum+number;
+		    System.out.println(sum);
+			
+		}
+}
+}
 	}
 
 }
